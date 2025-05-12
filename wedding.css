@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+@media (max-width: 768px) {
+    .second-section {
+      margin-top: 10;
+      }
+  }
+  @media (min-width: 770px),(max-width:820) {
+    .images-grid {
+      display: grid;
+      grid-template-columns: 3;
+      }
+  }
+
+  /* image grid start */
+  /* Remove default margin and padding from body */
+
+  
+  /* Photo grid styling */
+  /* Ensure the card has relative positioning */
+.card {
+    position: relative; /* Allows absolute positioning inside */
+    border-radius: 15px;
+  }
+  
+  /* Caption style */
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+   
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  
+  
+  /* image grid end */

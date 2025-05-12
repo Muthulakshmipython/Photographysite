@@ -1,0 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.navbar-nav .nav-link {
+   
+    padding: 0.6rem 1rem;
+    color: #000000;
+    font-weight:bold;
+    font-size: 18px;
+    border: #E93A9D;
+    border-width: 2px;
+  }
+  
+  /* Add spacing to navbar */
+  .navbar .btn {
+    margin-left: 20px;
+  }
+  .custom-navbar {
+    border: 3px solid #E93A9D; /* Use any color or thickness */
+  }
+  .navbar-nav .nav-link {
+   
+    padding: 0.6rem 1rem;
+    color: #000000;
+    font-weight:bold;
+    font-size: 18px;
+    border: #E93A9D;
+    border-width: 2px;
+  }
+  
+  /* Add spacing to navbar */
+  .navbar .btn {
+    margin-left: 20px;
+  }
+  .custom-navbar {
+    border: 3px solid #E93A9D; /* Use any color or thickness */
+  }
+
+  .logo-img {
+    height: 60px;
+    width: 100%;
+  }
+  .banner {
+    position: relative;
+
+    padding: 0; 
+    width: 100%;
+   
+    overflow: hidden; 
+    margin-top: 70px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  
+  .banner-img {
+  
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .custom-login-btn {
+    background-color: #E93A9D;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+ 
+    max-width: 200px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    align-items: center;
+  }
+  .custom-login-btn:hover {
+    background-color: #c52f85; /* darker shade on hover */
+  }
+  
+
+
+
+  
+  @media (max-width: 1024px) {
+    .navbar-nav .nav-link {
+   
+        padding: 0.5rem 1rem;
+        color: #000000;
+        font-weight:bold;
+        font-size: 15px;
+        border: #E93A9D;
+        border-width: 2px;
+      }
+  }
+
+
+ 
+
+  @media (max-width: 768px) {
+    .banner {
+        position: relative;
+    
+        padding: 0; 
+        width: 100%;
+        height: 30vh; 
+        overflow: hidden; 
+        margin-top: 90px;
+        margin-left: 0;
+        margin-right: 0;
+      }
+  }

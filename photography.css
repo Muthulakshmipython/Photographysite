@@ -1,0 +1,153 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .category-content {
+    display: none;
+  }
+
+  .active-category {
+    display: block;
+  }
+
+  /* Optional: Style for the active category menu item */
+  .menu-item.active {
+    color: #ff5733;
+    font-weight: bold;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .photo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  padding: 20px;
+    justify-items: center;
+}
+/* .photo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  justify-items: center;
+} */
+.photo-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+  /* .photo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+  padding: 40px;
+  width: 100%;
+  justify-items: center;
+} */
+  /* .photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  padding: 40px;
+  width: 100%;
+} */
+  /* .photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+   
+  } */
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 250px);
+    gap: 30px;
+    max-width: 1300px;
+    width: 100%;
+  }
+
+  .grid-container .item,
+.grid-container .col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.grid-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+/* 
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+} */
+  
+  .item {
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .large.vertical {
+    grid-row: span 2;
+  }
+  
+  .grid-container > .item:nth-child(3) {
+    grid-column: 3;
+    grid-row: span 2;
+  }
+  
+  .gallery-img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+    .small-img {
+      height: 250px;
+    }
+    .large-img {
+      height: 400px;
+    }
+
+  
+
+
+    @media (max-width: 600px) {
+  .photo-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 12px;
+  }
+}

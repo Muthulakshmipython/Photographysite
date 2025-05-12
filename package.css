@@ -1,0 +1,104 @@
+    .package-card {
+      background-color: #fff;
+      border: 1px solid #000;
+      
+   
+     
+      transition: 0.3s;
+    }
+    .package-card:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .package-header {
+      background-color: #f8379b;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      
+      font-weight: bold;
+    }
+
+    .feature-list li
+    {
+      padding: 15px;
+    }
+    .price {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #f8379b;
+      text-align: center;
+      margin: 15px 0;
+    }
+    .feature-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .feature-list li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .feature-list li i {
+      color: #000000;
+      margin-right:10px;
+    }
+    .btn-book {
+      background-color: #f8379b;
+      color: white;
+      display: block;
+      margin: 20px auto 0;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+        .btn-book-first {
+      background-color: #f8379b;
+      color: white;
+      display: block;
+      margin: 20px auto 0;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    
+        .btn-book-second {
+      background-color: #f8379b;
+      color: white;
+      display: block;
+      margin: 20px auto 0;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 10px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    
+        .btn-book-third {
+      background-color: #f8379b;
+      color: white;
+      display: block;
+      margin: 30px auto 10px;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .packgage-header
+    {
+      font-size: 25px;
+      color: #000000;
+      font-weight: bold;
+      text-align: center;
+    }
+ .packgage-para
+ {
+  font-size: 23px;
+  font-weight: 500;
+      text-align: center;
+ }
